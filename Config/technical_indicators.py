@@ -1,0 +1,1 @@
+technical_indicators = ["volume", "SMA_10", "SMA_20", "SMA_50", "SMA_100", "SMA_200", "EMA_10", "EMA_20", "EMA_50", "EMA_100", "EMA_200", "ATR", "ADX", "CCI", "ROC", "RSI", "Williams%R", "SO%K"]

@@ -1,0 +1,7 @@
+tpot
+vaderSentiment
+feedparser
+yfinance
+sckit-learn
+pandas
+numpy
