@@ -30,7 +30,7 @@ def predict(ticker_selected, current_day_data):
     ct1 = joblib.load(scaled_file_path)
     current_day_data = current_day_data[technical_indicators].copy()
     scaled_processed = ct1.transform(current_day_data)
-    model_file_path = "https://github.com/Rachel0904/Stock-Movement-Prediction/Model/Model_Pickle/" + ticker_selected + '.pkl'
+    model_file_path = "https://github.com/Rachel0904/Stock-Movement-Prediction/tree/main/Model/Model_Pickle/" + ticker_selected + '.pkl'
     model = pickle.load(open(model_file_path, 'rb'))
     prediction = model.predict(scaled_processed)
     return prediction[0]
