@@ -13,5 +13,8 @@ streamlit-toggle-switch==1.0.2
 streamlit-vertical-slider==1.0.2
 vaderSentiment==3.3.2
 yfinance==0.2.18
-joblib
-pickle
+joblib==1.1.0
+cloudpickle==2.0.0
+pandas==1.4.4
+plotly==5.9.0
+matplotlib==3.5.2
