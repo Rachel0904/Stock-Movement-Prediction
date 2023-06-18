@@ -18,3 +18,5 @@ cloudpickle==2.0.0
 pandas==1.4.4
 plotly==5.9.0
 matplotlib==3.5.2
+st-annotated-text==4.0.0
+streamlit-extras==0.2.7
