@@ -26,7 +26,7 @@ tickers_list = list(tickers_dict.keys())
 
 def predict(ticker_selected, current_day_data):
     # Loading Scaler
-    scaled_file_path = "https://github.com/Rachel0904/Stock-Movement-Prediction/tree/main/Model/Scaler/" + ticker_selected
+    scaled_file_path = "https://github.com/Rachel0904/Stock-Movement-Prediction/blob/main/Model/Scaler/" + ticker_selected
     ct1 = joblib.load(scaled_file_path)
     current_day_data = current_day_data[technical_indicators].copy()
     scaled_processed = ct1.transform(current_day_data)
