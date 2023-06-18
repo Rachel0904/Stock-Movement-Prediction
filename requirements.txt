@@ -13,3 +13,5 @@ streamlit-toggle-switch==1.0.2
 streamlit-vertical-slider==1.0.2
 vaderSentiment==3.3.2
 yfinance==0.2.18
+joblib
+pickle
